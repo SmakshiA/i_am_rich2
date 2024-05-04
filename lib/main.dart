@@ -1,11 +1,16 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MaterialApp(
-    home: Center(
-      child: Text("Hello h"),
-    ),
+  runApp(MaterialApp(
+    home: Scaffold(
+      appBar: AppBar(
+        title: Text(
+          "I am Rich Again"
+        ),
+        backgroundColor: Colors.blueAccent,
+        centerTitle: true,
+      ),
+
+    )
   ));
 }
-
-
