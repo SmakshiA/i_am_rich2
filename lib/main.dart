@@ -7,10 +7,11 @@ void main() {
         title: Text(
           "I am Rich Again"
         ),
-        backgroundColor: Colors.blueAccent,
+        backgroundColor: Colors.blueGrey.shade900,
         centerTitle: true,
+        foregroundColor: Colors.white,
       ),
-
+      backgroundColor: Colors.white70,
     )
   ));
 }
